@@ -5,10 +5,10 @@
 @layer base {
     @font-face {
         font-family: "Product Sans";
-        src: url("../font/productSans/Product-Sans-Regular.ttf") format("ttf");
+        src: url("../dist/font/productSans/Product-Sans-Regular.ttf") format("ttf");
     }
     @font-face {
         font-family: jf;
-        src: url(../font/jf-openhuninn/regular.ttf);
+        src: url(../dist/font/jf-openhuninn/regular.ttf);
     }
 }
