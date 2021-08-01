@@ -15,6 +15,8 @@ module.exports = {
       "Black-Pearl": "#2C5364",
       "Lilac": "#c471ed",
       "Light-Blue": "#12c2e9",
+      "SublimeLight1": "#FC5C7D",
+      "SublimeLight2": "#6A82FB",
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,
