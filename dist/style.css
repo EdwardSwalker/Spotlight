@@ -585,6 +585,10 @@ video {
   height: 100%;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .w-52 {
   width: 13rem;
 }
@@ -732,6 +736,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
