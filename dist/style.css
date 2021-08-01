@@ -513,13 +513,13 @@ video {
 @font-face {
   font-family: "Product Sans";
 
-  src: url("../dist/font/productSans/Product-Sans-Regular.ttf") format("ttf");
+  src: url("../dist/fonts/productSans/Product-Sans-Regular.ttf") format("ttf");
 }
 
 @font-face {
   font-family: jf;
 
-  src: url(../dist/font/jf-openhuninn/regular.ttf);
+  src: url(../dist/fonts/jf-openhuninn/regular.ttf);
 }
 
 .container {
@@ -581,20 +581,12 @@ video {
   height: auto;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-24 {
   width: 6rem;
 }
 
 .w-52 {
   width: 13rem;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .flex-auto {
@@ -687,6 +679,10 @@ video {
 
 .pr-3 {
   padding-right: 0.75rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-center {
