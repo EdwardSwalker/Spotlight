@@ -8,6 +8,11 @@ module.exports = {
     fontFamily: {
       productSans: "'Product Sans', serif",
       jf: "'jf', serif"
+    },
+    colors: {
+      "Black-Pearl": "#2C5364",
+      "Lilac": "#c471ed",
+      "Light-Blue": "#12c2e9"
     }
   },
   variants: {
