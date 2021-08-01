@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [
       "./dist/**/*.html"
@@ -12,7 +14,15 @@ module.exports = {
     colors: {
       "Black-Pearl": "#2C5364",
       "Lilac": "#c471ed",
-      "Light-Blue": "#12c2e9"
+      "Light-Blue": "#12c2e9",
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.trueGray,
+      indigo: colors.indigo,
+      red: colors.rose,
+      yellow: colors.amber,
     }
   },
   variants: {
